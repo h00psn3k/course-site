@@ -9,10 +9,10 @@
   div {
     color: white;
     min-height: 225px;
+   /* border: 1px solid green;*/
   }
 
   p {
-      /*margin: 2%;*/
       font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -38,7 +38,8 @@
 
   .p-content{
       clear: both;
-      padding: 3%;
+      padding-left: 2.5%;
+      padding-right: 2.5%
   }
 
   #title1 {
@@ -140,9 +141,10 @@
         background-color: #A52A2A;
         width: 90%;
         margin-left: 5%;
-        min-height: 201px;
+        min-height: 191px;
         border: 2px solid black;}
   }
+
 
   /********** Medium devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
@@ -224,7 +226,7 @@
         background-color: #A52A2A;
         width: 90%;
         margin-left: 5%;
-        min-height: 180px;
+        min-height: 175px;
         border: 2px solid black;
     }    
   }
@@ -300,16 +302,17 @@
             margin-bottom: 2%;
         }*/
     
-        .div-colour{
+        .div-colour, .div-bottom-colour{
             background-color: #A52A2A;
             width: 90%;
             margin-left: 5%;
-            min-height: 170px;
+            min-height: 140px;
             border: 2px solid black;
 
         }
 
-        .div-bottom-colour{
-            min-height: 170px;
+        div {
+          min-height: 160px;
         }
+
       }
