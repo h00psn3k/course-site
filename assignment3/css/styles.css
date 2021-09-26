@@ -14,7 +14,7 @@ body {
 
 
 .navbar-brand {
-  margin-top: 2vh;
+  margin-top: 3vh;
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
@@ -23,9 +23,7 @@ body {
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  /*text-shadow: 1px 1px 1px #222;*/
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -2vh;
   margin-left: -1vw;
   line-height: .75;
 }
@@ -111,6 +109,11 @@ h3.menu-item-title {
     max-width: 80%;
     margin-left: 10%;
   }
+
+  .navbar-brand h1 {
+    margin-left: 2vw;
+  }
+
 }
 
 
